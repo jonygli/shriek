@@ -1,23 +1,15 @@
 ---
 layout: default
-title: 我的Blog
+title: babylon.js test
 ---
 
 <h2>{{ page.title }}</h2>
 
-<p>最新文章</p>
+<p>Tests</p>
 
 <ul>
-    {% for post in site.posts %}
-      <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+	{% assign posts = site.bbjs %}
+    {% for post in posts %}
+      <li>{{ post.title }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
-
-<!-- <p>最新Test</p>
-
-<ul>
-    {% for page in site.documents %}
-      <li>1 <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
-    {% endfor %}
-</ul>
- -->

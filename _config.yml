@@ -1,1 +1,5 @@
 baseurl: /jekyll_demo
+
+collections:
+  bbjs:
+    output: true
