@@ -8,8 +8,8 @@ title: babylon.js test
 <p>Tests</p>
 
 <ul>
-	{% assign posts = site.bbjs %}
-    {% for post in posts %}
-      <li>{{ post.title }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+	{% assign tests = site.bbjs %}
+    {% for test in tests %}
+      <li>{{ test.title }} <a href="{{ site.baseurl }}{{ test.url }}">{{ test.title }}</a></li>
     {% endfor %}
 </ul>

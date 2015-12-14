@@ -1,5 +1,11 @@
-baseurl: /jekyll_demo
+baseurl: /shriek
 
 collections:
   bbjs:
     output: true
+
+defaults:
+  - scope:
+      path: _bbjs
+    values:
+      layout: layout_bbjs
