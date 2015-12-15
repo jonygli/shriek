@@ -3,6 +3,7 @@ baseurl: /shriek
 collections:
   bbjs:
     output: true
+    permalink: /tests/:path/
 
 defaults:
   - scope:
