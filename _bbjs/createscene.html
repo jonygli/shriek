@@ -1,10 +1,10 @@
-﻿---
-layout: layout_bbjs 
-title: Create Scene
+---
+layout: layoutbbjs
+title: createscene
+date: 2015-12-15 12:05:49 +0800
+permalink: /bbjs/createscene/
 ---
 
-
-<canvas id="renderCanvas"></canvas>
 <script>
     window.addEventListener('DOMContentLoaded', function () {
         // get the canvas DOM element
@@ -45,7 +45,6 @@ title: Create Scene
 
         // call the createScene function
         var scene = createScene();
-
         // run the render loop
         engine.runRenderLoop(function () {
             scene.render();

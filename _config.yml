@@ -8,4 +8,4 @@ defaults:
   - scope:
       path: _bbjs
     values:
-      layout: layout_bbjs
+      layout: layoutbbjs
