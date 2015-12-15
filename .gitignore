@@ -3,3 +3,6 @@ _site/
 pkg/
 .sass-cache/
 *.sublime-workspace
+_bbjs/typescript/vs/obj/
+_bbjs/typescript/vs/bin/
+_bbjs/typescript/vs/*.suo

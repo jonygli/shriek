@@ -4,9 +4,3 @@ collections:
   bbjs:
     output: true
     permalink: /tests/:path/
-
-defaults:
-  - scope:
-      path: _bbjs
-    values:
-      layout: layoutbbjs
