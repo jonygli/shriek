@@ -12,8 +12,8 @@ var createScene = function () {
     var light = new BABYLON.PointLight("Omni", new BABYLON.Vector3(-60, 60, 80), scene);
 
     //Create an Arc Rotate Camera - aimed negative z this time
-    var camera = new BABYLON.ArcRotateCamera("Camera", Math.PI / 2, 1.0, 110, BABYLON.Vector3.Zero(), scene);
-    <!-- var camera = new BABYLON.ArcRotateCamera("Camera", 0, 0, 110, BABYLON.Vector3.Zero(), scene); -->
+    <!-- var camera = new BABYLON.ArcRotateCamera("Camera", Math.PI / 2, 1.0, 110, BABYLON.Vector3.Zero(), scene); -->
+    var camera = new BABYLON.ArcRotateCamera("Camera", 0, 0, 110, BABYLON.Vector3.Zero(), scene);
     camera.attachControl(canvas, true);
 
     //Creation of 6 spheres
