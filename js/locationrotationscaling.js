@@ -15,15 +15,6 @@ var createScene = function (engine, canvas, baseurl) {
     var box5 = BABYLON.Mesh.CreateBox("Box5", 6.0, scene);
     var box6 = BABYLON.Mesh.CreateBox("Box6", 6.0, scene);
     var box7 = BABYLON.Mesh.CreateBox("Box7", 6.0, scene);
-	
-	var s0 = BABYLON.Mesh.CreateSphere("s0", 10, 10, scene);
-	s0.position = new BABYLON.Vector3(0, 0, 10);
-
-	var s1 = BABYLON.Mesh.CreateSphere("s1", 5, 5, scene);
-	s1.position = new BABYLON.Vector3(0, 10, 0);
-	
-	var s2 = BABYLON.Mesh.CreateSphere("s2", 15, 15, scene);
-	s2.position = new BABYLON.Vector3(60, 0, 0);
 
     //Moving boxes on the x axis
     box1.position.x = -20;
@@ -52,5 +43,7 @@ var createScene = function (engine, canvas, baseurl) {
     box7.parent = box1;
     box7.position.z = -10;
 
+    createAxis(scene, 10, 1);
+    
     return scene;
 }
