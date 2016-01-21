@@ -4,3 +4,6 @@ collections:
   bbjs:
     output: true
     permalink: /tests/:path/
+  phaser:
+    output: true
+    permalink: /phaser/:path/
